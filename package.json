@@ -1,0 +1,21 @@
+{
+  "name": "Forge-contract",
+  "version": "1.0.0",
+  "description": "Forge - A blockchain-based knowledge and flashcard storage smart contract",
+  "scripts": {
+    "build": "npx thirdweb@latest detect",
+    "deploy": "npx thirdweb@latest deploy",
+    "release": "npx thirdweb@latest release",
+    "test": "hardhat test"
+  },
+  "devDependencies": {
+    "@matterlabs/hardhat-zksync-solc": "^0.3.17",
+    "hardhat": "^2.13.0"
+  },
+  "dependencies": {
+    "@nomicfoundation/hardhat-network-helpers": "^1.0.9",
+    "@thirdweb-dev/contracts": "^3.8.0",
+    "big-integer": "^1.6.51",
+    "zksync-web3": "^0.14.3"
+  }
+}

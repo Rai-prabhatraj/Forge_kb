@@ -3,18 +3,6 @@
 
 Forge is an Ethereum-compatible smart contract implemented in Solidity (^0.8.9) that provides a decentralized, immutable data storage layer for knowledge management. The contract implements a hierarchical data model where Record structs serve as parent entities containing metadata (title, description, ownership, timestamp), and Flashcard structs function as child entities linked via `correspondingRecordId` foreign key relationships. The contract maintains state through dynamic arrays and address-to-array mappings, enabling CRUD operations on both entity types with owner-based access control enforced at the contract level.
 
-## Table of Contents
-
-- [Overview](#overview)
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Smart Contract API](#smart-contract-api)
-- [Testing](#testing)
-- [Deployment](#deployment)
-- [Project Structure](#project-structure)
-- [License](#license)
-
 ## Overview
 
 Forge provides a decentralized way to store and manage knowledge records with flashcards. Each record represents a piece of knowledge, and users can attach multiple flashcards (question-answer pairs) to help with learning and retention.
